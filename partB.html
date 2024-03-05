@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PART B</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .header-links {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .header-links button {
+            margin-left: 10px;
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 100px); 
+        }
+        .sections {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+        }
+        .section {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 0 10px;
+            box-sizing: border-box;
+            font-family: "Georgia", Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+                <h1>DOG BREEDS</h1>
+                <div class="header-links">
+                    <button>Sign In</button>
+                    <button>Sign Up</button>
+                </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="sections">
+            <div class="section">
+                <h2>Golden Retriever</h2>
+               <img src="d1.jpg" alt="Golden Retriever">
+               <p>The Golden Retriever is one of the most popular dog breeds in the United States. They are friendly, intelligent, and devoted dogs. They are well-suited for families and are known for their gentle temperament and willingness to please. Golden Retrievers are often used as service dogs, therapy dogs, and search and rescue dogs due to their versatility and trainability.</p>
+            </div>
+            <div class="section">
+                <h2>Labrador Retriever</h2>
+               <img src="d2.jpg" alt="Labrador Retriever">
+               <p>The Labrador Retriever is another highly popular dog breed known for its friendly and outgoing nature. Labs are intelligent, loyal, and versatile, making them excellent family pets, working dogs, and service animals. They are often used as guide dogs for the blind, therapy dogs, and search and rescue dogs due to their gentle temperament and high trainability.</p>
+            </div>
+            <div class="section">
+                <h2>German Shepherd</h2>
+                <img src="d3.jpg" alt="German Shepherd">
+                <p>The German Shepherd is a breed known for its intelligence, strength, and versatility. They are often used as police dogs, search and rescue dogs, and service animals due to their obedience and ability to learn complex tasks. German Shepherds are loyal and protective of their families, making them excellent guard dogs as well.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
